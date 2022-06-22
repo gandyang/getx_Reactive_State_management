@@ -1,3 +1,5 @@
-import 'package:get/get.dart';
-
-class PersonalCard extends GetxController {}
+class Person {
+  Person({this.age = 0, this.name = ''});
+  int age;
+  String name;
+}
